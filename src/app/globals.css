@@ -1061,3 +1061,39 @@ textarea.zeiny-input { min-height: 150px; resize: vertical; }
     transform: none;
   }
 }
+
+/* ===== RESPONSIVE CASE TRACKER FOR PHONES ===== */
+@media (max-width: 768px) {
+  .royal-inner-hero {
+    height: 380px !important;
+    padding-top: 110px !important;
+  }
+  
+  .royal-inner-title {
+    font-size: 2.3rem !important;
+  }
+  
+  .royal-inner-sub {
+    font-size: 1.05rem !important;
+    padding: 0 15px;
+  }
+  
+  .royal-column-left, .royal-column-right {
+    display: none !important;
+  }
+  
+  .track-grid-responsive {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 20px !important;
+  }
+  
+  .zeiny-contact-info, .zeiny-contact-form-box {
+    padding: 25px !important;
+  }
+  
+  .btn-gold, .btn-outline {
+    width: 100% !important;
+    justify-content: center !important;
+  }
+}
