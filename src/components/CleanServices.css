@@ -1,0 +1,62 @@
+.services-serious {
+  background-color: var(--law-bg);
+}
+
+.services-serious-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.service-card-serious {
+  background-color: #fff;
+  border: 1px solid var(--law-border);
+  padding: 40px 30px;
+  border-radius: 4px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.service-card-serious:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+  border-color: var(--law-gold);
+}
+
+.service-icon-serious {
+  font-size: 2.5rem;
+  color: var(--law-navy);
+  margin-bottom: 20px;
+}
+
+.service-card-serious h3 {
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+  color: var(--law-navy);
+}
+
+.service-card-serious p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.service-features-serious {
+  list-style: none;
+  border-top: 1px solid var(--law-border);
+  padding-top: 20px;
+}
+
+.service-features-serious li {
+  font-size: 0.95rem;
+  color: var(--law-text);
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.service-features-serious li i {
+  color: var(--law-gold);
+  font-size: 0.8rem;
+}

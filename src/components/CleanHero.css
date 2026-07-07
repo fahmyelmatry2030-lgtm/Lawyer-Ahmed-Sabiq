@@ -1,0 +1,67 @@
+.hero-serious {
+  background-color: var(--law-navy);
+  color: #fff;
+  padding: 120px 0;
+  border-bottom: 5px solid var(--law-gold);
+}
+
+.hero-serious-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.hero-serious-content h1 {
+  color: #fff;
+  font-size: 3rem;
+  margin-bottom: 20px;
+  line-height: 1.4;
+}
+
+.hero-serious-content p {
+  color: #cbd5e1;
+  font-size: 1.2rem;
+  margin-bottom: 40px;
+  line-height: 1.8;
+}
+
+.hero-serious-actions {
+  display: flex;
+  gap: 20px;
+}
+
+.btn-gold {
+  display: inline-block;
+  background-color: var(--law-gold);
+  color: #fff;
+  padding: 14px 32px;
+  border-radius: 2px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-gold:hover {
+  background-color: var(--law-gold-hover);
+}
+
+.hero-serious-image {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 4px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+}
+
+@media (max-width: 900px) {
+  .hero-serious-grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .hero-serious-actions {
+    justify-content: center;
+  }
+}
