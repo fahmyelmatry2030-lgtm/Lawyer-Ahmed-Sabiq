@@ -962,17 +962,13 @@ textarea.zeiny-input { min-height: 150px; resize: vertical; }
   .section { padding: 80px 0; }
   .hero-final-title { font-size: 2.4rem; }
   .hero-final-desc { font-size: 1rem; }
-  .hero-final-wrapper { padding: 100px 20px 80px; }
+  .hero-final-wrapper { padding: 120px 20px 80px; }
   .hero-final-content { width: 100%; max-width: 100%; padding: 0; }
   .hero-label { flex-direction: column; align-items: center; gap: 10px; }
   .hero-final-actions { flex-direction: column; gap: 15px; }
   .hero-final-actions .btn-gold,
   .hero-final-actions .btn-outline { width: 100%; justify-content: center; }
   .hero-stats-bar { width: 100%; max-width: 100%; padding: 20px 15px; margin-top: 25px; }
-  .zeiny-header { height: auto; padding: 20px 0; }
-  .zeiny-nav { flex-direction: column; align-items: stretch; gap: 15px; }
-  .zeiny-menu { display: none; }
-  .zeiny-actions { justify-content: space-between; }
 }
 /* ===== MOBILE HEADER STYLES ===== */
 .menu-toggle-btn {
