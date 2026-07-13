@@ -41,7 +41,7 @@ export default function CleanHeader() {
           <li><Link href="/services" className={isActive('/services')}>الخدمات</Link></li>
           <li><Link href="/achievements" className={isActive('/achievements')}>الإنجازات</Link></li>
           <li><Link href="/team" className={isActive('/team')}>فريق العمل</Link></li>
-          <li><Link href="/portal/track" className={isActive('/portal/track')}>تتبع قضيتك</Link></li>
+          <li><Link href="/admin/track" className={isActive('/admin/track')}>تتبع قضيتك</Link></li>
           <li><Link href="/contact" className={isActive('/contact')}>تواصل معنا</Link></li>
           
           {/* Mobile-only CTA */}

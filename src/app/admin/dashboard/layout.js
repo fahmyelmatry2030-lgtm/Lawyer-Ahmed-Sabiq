@@ -7,15 +7,15 @@ export default function DashboardLayout({ children }) {
   const router = useRouter();
 
   const handleLogout = () => {
-    router.push("/portal");
+    router.push("/admin");
   };
 
   const navItems = [
-    { label: "نظرة عامة", path: "/portal/dashboard", icon: "fa-solid fa-chart-line" },
-    { label: "إدارة الموكلين", path: "/portal/dashboard/clients", icon: "fa-solid fa-users" },
-    { label: "إدارة القضايا", path: "/portal/dashboard/cases", icon: "fa-solid fa-gavel" },
-    { label: "أجندة الجلسات", path: "/portal/dashboard/calendar", icon: "fa-solid fa-calendar-days" },
-    { label: "طلبات الاستشارة", path: "/portal/dashboard/consultations", icon: "fa-solid fa-envelope-open-text" }
+    { label: "نظرة عامة", path: "/admin/dashboard", icon: "fa-solid fa-chart-line" },
+    { label: "إدارة الموكلين", path: "/admin/dashboard/clients", icon: "fa-solid fa-users" },
+    { label: "إدارة القضايا", path: "/admin/dashboard/cases", icon: "fa-solid fa-gavel" },
+    { label: "أجندة الجلسات", path: "/admin/dashboard/calendar", icon: "fa-solid fa-calendar-days" },
+    { label: "طلبات الاستشارة", path: "/admin/dashboard/consultations", icon: "fa-solid fa-envelope-open-text" }
   ];
 
   return (

@@ -11,7 +11,7 @@ export default function PortalLoginPage() {
   const handleLogin = (e) => {
     e.preventDefault();
     if (username === "admin" && password === "sabek123") {
-      router.push("/portal/dashboard");
+      router.push("/admin/dashboard");
     } else {
       setError("اسم المستخدم أو كلمة المرور غير صحيحة");
     }
